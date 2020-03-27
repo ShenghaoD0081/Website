@@ -1,0 +1,50 @@
+.sidenav{
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  background-color: black;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+.sidenav a{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+.main {
+  margin-left: 120px;
+  font-size: 28px;
+  padding: 20px 10px;
+}
+h2{
+  text-align: center;
+}
+
+body, html{
+  height: 100%;
+}
+.all{
+  background-color: black;
+  z-index: 9000;
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-image: url(https://motionarray.imgix.net/preview-172411-K4VPUXa1yT-high_0000.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  color: white;
+}
+.center{
+  text-align: center;
+}
